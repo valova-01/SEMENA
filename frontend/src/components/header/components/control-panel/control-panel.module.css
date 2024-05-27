@@ -1,0 +1,25 @@
+.rightAligned {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: #f8f8f8;
+}
+
+.user {
+	font-size: 18px;
+	font-weight: bold;
+}
+.loginButton {
+	border: none;
+	color: #f8f8f8;
+}
+.cartItemCount {
+	position: absolute;
+	top: 55px;
+	right: 18px;
+	background-color: rgb(20, 110, 50);
+	color: white;
+	padding: 3px 6px;
+	border-radius: 50%;
+	font-size: 12px;
+}

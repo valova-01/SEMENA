@@ -1,0 +1,13 @@
+.iconContainer {
+	font-size: 24px;
+	margin: 0;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.iconContainer:hover {
+	cursor: pointer;
+}
+
+.iconContainer.disabled {
+	cursor: default;
+}

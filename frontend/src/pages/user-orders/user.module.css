@@ -1,0 +1,74 @@
+.container {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.order {
+	border: 1px solid #000000;
+	width: 1200px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	background-color: rgb(20, 110, 50);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.orderHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 20px;
+	cursor: pointer;
+	background-color: rgb(48, 165, 87);
+	border-radius: 5px 5px 0 0;
+}
+
+.orderName {
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.orderToggle {
+	font-size: 24px;
+	color: #ffffff;
+}
+
+.orderDetails {
+	padding: 20px;
+	background-color: rgb(20, 110, 50);
+	border-radius: 0 0 5px 5px;
+}
+
+.infoBlock {
+	margin-bottom: 15px;
+	color: #e0e0e0;
+}
+
+.label {
+	font-weight: bold;
+	margin-right: 5px;
+}
+
+.productList {
+	list-style: none;
+	padding-left: 0;
+}
+
+.product {
+	margin-bottom: 5px;
+}
+
+.title {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.noOrdersText {
+	font-size: 18px;
+	color: #666;
+	text-align: center;
+}
